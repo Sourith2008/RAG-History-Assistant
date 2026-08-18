@@ -3,7 +3,7 @@ import faiss
 import pickle
 import numpy as np
 
-with open("docs.pkl","rb") as f:
+with open("data/docs.pkl","rb") as f:
     docs=pickle.load(f)
 index=faiss.read_index("data/index.faiss")
 def infer(user_input):
