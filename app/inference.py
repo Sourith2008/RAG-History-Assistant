@@ -1,4 +1,4 @@
-from model import model,tokenizer,embed_model,reranker
+from app.model import model,tokenizer,embed_model,reranker
 import faiss
 import pickle
 import numpy as np
