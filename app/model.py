@@ -10,7 +10,7 @@ def load_model():
 
     embed_model=SentenceTransformer("all-MiniLM-L6-v2")
 
-    reranker=CrossEncoder("cross-encoder/ms-marco-electra-base")
+    reranker=CrossEncoder("cross-encoder/ms-marco-MiniLM-L4-v2")
     
     model.eval()
     return model,tokenizer,embed_model,reranker
