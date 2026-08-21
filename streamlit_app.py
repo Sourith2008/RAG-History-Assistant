@@ -52,6 +52,15 @@ Qwen2.5 generates the answer
     **Built with**
     FAISS · Sentence Transformers · CrossEncoder · Qwen2.5 · Streamlit
     """)
+    st.sidebar.markdown("### 📚 Example Questions")
+
+    st.sidebar.markdown("""
+    - What were the main causes of the French Revolution?
+    - Who was Napoleon?
+    - What were the consequences of the Russian Revolution?
+    - What was India's role in the Second World War?
+    - What is communism?
+    """)
     if st.button("Clear Chat"):
         st.session_state.messages=[]
         st.rerun()
