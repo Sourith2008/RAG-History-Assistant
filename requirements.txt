@@ -3,5 +3,6 @@ sentence_transformers
 torch
 torchvision
 faiss-cpu
+bitsandbytes>=0.46.1
 numpy
 streamlit
