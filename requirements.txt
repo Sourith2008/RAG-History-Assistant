@@ -1,6 +1,7 @@
 transformers
 sentence_transformers
 torch
+torchvision
 faiss-cpu
 numpy
 streamlit
